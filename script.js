@@ -1,6 +1,6 @@
 
 
-window.onload=function(){
+/*window.onload=function(){
     var vitian = document.getElementsByTagName('select')[0];
     var reg_no = document.getElementById('reg_no');
     var college = document.getElementById('college');
@@ -18,4 +18,4 @@ window.onload=function(){
         reg_no.style.display = "none"
     }
 })
-  }
+  }*/
