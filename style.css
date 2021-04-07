@@ -1,6 +1,6 @@
 @font-face {
     font-family: SF;
-    src: url(./../Assets/FontsFree-Net-SFProText-Regular-1.ttf);
+    src: url(Assets/FontsFree-Net-SFProText-Regular-1.ttf);
 }
 
 /* @font-face {
@@ -19,7 +19,7 @@
 
 
 body {
-    background: #000 url(./../Assets/BGGrid\ 2.png);
+    background: #000 url(Assets/BGGrid\ 2.png);
 }
 
 .main {
