@@ -8,16 +8,11 @@
 3. JavaScript
 
 ## Contributors 👨‍💻:
-
 #### Web Developers 🌐:
-<br>
 [Dev Swaika](https://github.com/DevSwaika99)
 <br>
 [Anmol Bansal](https://github.com/anmolbansal7) 
-<br>
-
 #### Web Design 🍥:
-<br>
 [Utkarsh Dixit](https://github.com/fakeyudi)
 
 ## Website link 💻:
