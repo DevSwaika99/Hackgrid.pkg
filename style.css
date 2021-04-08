@@ -308,6 +308,17 @@ color: #0A84FF;
     color: #ffffff;
     letter-spacing: 0.9;
   }
+  .card-heading{
+    padding-top: 0%;
+  }
+  .card svg{
+    width: 92px;
+    height: auto;
+  }
+  .card-desc{
+    padding-top: 0;
+  }
+
 }
  
 @media screen and (min-width: 761px) and (max-width: 1224px) {
