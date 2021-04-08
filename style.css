@@ -2,7 +2,6 @@
   font-family: SF;
   src: url(Assets/FontsFree-Net-SFProText-Regular-1.ttf);
 }
-
 * {
   padding: 0px;
   margin: 0px;
@@ -155,6 +154,19 @@ p.italic1 {
   height: auto;
 }
 
+.card1{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background: rgba(17, 17, 17, 0.8);
+  border-radius: 30px;
+  align-items: center;
+  padding: 40px 30px 30px 30px;
+  border: 2px solid rgba(17, 17, 17, 0.8);
+  width: 380px;
+  height: auto;
+}
+
 .card:hover {
   border: 2px solid #0a84ff;
 }
@@ -182,6 +194,15 @@ p.italic1 {
   text-align: center;
 }
 
+.card-desc1 {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+  line-height: 25.62px;
+  text-align: center;
+}
+
 .card-event {
   font-size: 16px;
   font-weight: 300;
@@ -201,12 +222,43 @@ p.italic1 {
   border: 1px solid #0a84ff;
 }
 
+.btn {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  height: auto;
+  width: 100%;
+}
+
+/* .btn:hover {
+color: #0A84FF;
+} */
+
+.countdown {
+  text-align: center;
+  margin: 0px 0;
+}
+
+.text {
+  font-size: 12px;
+  color: #fff;
+  padding-top: 0px;
+}
+
+.time {
+  color: #0A84FF;
+  font-size: 16px;
+  padding-top: 7%;
+}
+
+
 @media screen and (max-width: 1023px) {
   .cards {
     flex-direction: column;
   }
   .hackgrid{
 	  padding: 15%;
+    padding-bottom: 5%;
   }
   .hackgrid svg{
     width: 100%;
@@ -231,7 +283,7 @@ p.italic1 {
 	width: 90%;
 	margin-top: 0px;
   }
-  .card{
+  .card, .card1{
 	  margin-bottom: 50px;
     width: auto;
     height: auto;
@@ -242,7 +294,7 @@ p.italic1 {
 }
  
 @media screen and (min-width: 761px) and (max-width: 1224px) {
-	.card{
+	.card, .card1{
 		width: 60%;
 	}
 	.cards{
@@ -256,7 +308,7 @@ p.italic1 {
 	.hackgrid{
 		padding: 10%;
 	}
-	.card{
+	.card, .card1{
 		margin-bottom: 50px;
     width: auto;
     height: auto;
