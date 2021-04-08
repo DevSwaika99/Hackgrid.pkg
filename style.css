@@ -28,6 +28,9 @@ div.hackgrid {
   display: flex;
   justify-content: center;
   padding-top: 2%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 div.pkg {
@@ -63,6 +66,7 @@ span {
   padding: 25px 10px;
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 50px;
   font-weight: 600;
   font-size: 21px;
   line-height: 29px;
@@ -106,6 +110,11 @@ p.italic {
   font-style: italic;
   text-shadow: 1px 0.1px;
 }
+p.italic1 {
+  font-weight: 500;
+  /* font-style: italic; */
+  text-shadow: 1px 0.1px; 
+}
 
 .heading {
   color: #fff;
@@ -113,6 +122,15 @@ p.italic {
   font-weight: 600;
   letter-spacing: 1.1px;
   line-height: 28px;
+}
+
+.form-text{
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 142.34%;
+  padding-top: 5%;
+  font-style: normal;
 }
 
 /* Cards */
@@ -131,8 +149,10 @@ p.italic {
   border-radius: 30px;
   align-items: center;
   padding: 40px 30px 30px 30px;
-  border: 1px solid rgba(17, 17, 17, 0.8);
+  border: 2px solid rgba(17, 17, 17, 0.8);
   cursor: pointer;
+  width: 380px;
+  height: auto;
 }
 
 .card:hover {
@@ -188,13 +208,16 @@ p.italic {
   .hackgrid{
 	  padding: 15%;
   }
+  .hackgrid svg{
+    width: 100%;
+  }
   .para-desc{
-	  font-size: 18px;
+	  font-size: 17.5px;
 	  padding-top: 0px;
   }
   .register-btn{
 	  width: 60%;
-	  font-size: 20px;
+	  font-size: 18px;
 	  height: auto;
 	  padding: 6%;
   }
@@ -210,6 +233,8 @@ p.italic {
   }
   .card{
 	  margin-bottom: 50px;
+    width: auto;
+    height: auto;
   }
   div.adglogo{
     padding-top: 7%;
@@ -233,6 +258,8 @@ p.italic {
 	}
 	.card{
 		margin-bottom: 50px;
+    width: auto;
+    height: auto;
 	}
   div.adglogo{
     padding-top: 7%;
@@ -302,13 +329,23 @@ p {
 }
 .footer-items {
   width: 33%;
-  padding: 10px 20px;
-  box-sizing: border-box;
+  padding: 1%;
+  /* box-sizing: border-box; */
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.foot2, .border, .qlinks .social{
+  /* margin-left: 10vw; */
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+ul{
+  list-style: inside;
   text-align: center;
 }
-/* .foot2{
-  margin-left: 10vw;
-*/
 .foot3 {
   align-items: center;
   text-align: center;
@@ -408,7 +445,7 @@ ul li:hover {
 	font-weight: 525;
 } */
 .qlinks {
-  margin-left: 15%;
+  margin-left: 25%;
 }
 .qlinks li {
   width: 50%;
