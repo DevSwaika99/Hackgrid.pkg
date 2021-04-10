@@ -12,6 +12,8 @@
 [Dev Swaika](https://github.com/DevSwaika99)
 <br>
 [Anmol Bansal](https://github.com/anmolbansal7) 
+<br>
+[Vidushi Gupta](https://github.com/vidushig08) 
 #### Web Design 🍥:
 [Utkarsh Dixit](https://github.com/fakeyudi)
 
