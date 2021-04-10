@@ -150,6 +150,13 @@ p.italic1 {
   padding: 70px 40px 0;
   padding-bottom: 50px;
 }
+.cards1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 40px 0;
+  padding-bottom: 50px;
+}
+
 
 .card {
   color: #ffffff;
@@ -174,11 +181,29 @@ p.italic1 {
   align-items: center;
   padding: 40px 30px 30px 30px;
   border: 2px solid rgba(17, 17, 17, 0.8);
-  width: 380px;
+  width: 30%;
   height: auto;
 }
 
-.card:hover {
+.card1 svg{
+  width: 155px !important;
+  height: auto !important;
+}
+
+.card2 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  align-items: center;
+  /* padding: 0px 30px 30px 30px; */
+  width: 40%; 
+  height: auto;
+  background: rgba(17, 17, 17, 0.8);
+  padding: 5%;
+  padding-left: 5%;
+}
+.card:hover, .card1:hover {
   border: 2px solid #0a84ff;
 }
 
@@ -195,6 +220,7 @@ p.italic1 {
   line-height: 23.87px;
   text-align: center;
 }
+
 
 .card-desc {
   padding: 20px 0;
