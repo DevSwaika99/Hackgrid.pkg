@@ -220,6 +220,15 @@ p.italic1 {
   line-height: 23.87px;
   text-align: center;
 }
+.card-headingD {
+  font-weight: 600;
+  padding: 20px 0;
+  font-size: 36px;
+  letter-spacing: 0.9px;
+  line-height: 23.87px;
+  text-align: center;
+  margin-top: -50px;
+}
 
 
 .card-desc {
@@ -238,6 +247,12 @@ p.italic1 {
   letter-spacing: 0.9px;
   line-height: 25.62px;
   text-align: center;
+}
+
+.card-desc2D{
+  font-size: 22px;
+  opacity: 80%;
+
 }
 
 .card-desc1 {
@@ -266,6 +281,20 @@ p.italic1 {
   text-align: center;
   margin: 20px 0;
   border: 1px solid #0a84ff;
+}
+
+.card-btnD {
+  background-color: #0a84ff;
+  width: 80%;
+  border-radius: 12px;
+  padding: 10px 5px;
+  text-align: center;
+  margin: 20px 0;
+  border: 1px solid #0a84ff;
+  height: auto;
+  font-size: 24px;
+  padding: 5%;
+  border-radius: 15px;
 }
 
 .btn {
@@ -299,7 +328,7 @@ color: #0A84FF;
 
 
 @media screen and (max-width: 1023px) {
-  .cards {
+  .cards, .cards1 {
     flex-direction: column;
   }
   .hackgrid{
@@ -329,7 +358,7 @@ color: #0A84FF;
 	width: 90%;
 	margin-top: 0px;
   }
-  .card, .card1{
+  .card, .card1, .card2{
 	  margin-bottom: 50px;
     width: auto;
     height: auto;
@@ -364,6 +393,21 @@ color: #0A84FF;
   .card-desc{
     padding-top: 0;
   }
+  .card-headingD{
+    font-size: 24px;
+  }
+  .card-icon_download svg{
+    width: 70%;
+    align-items: center;
+    align-self: center;
+    margin-left: 15%;
+  }
+  .card-desc2D{
+    font-size: 18px;
+  }
+  .card-btnD{
+    font-size: 16px;
+  }
 
 }
  
@@ -371,7 +415,7 @@ color: #0A84FF;
 	.card, .card1{
 		width: 60%;
 	}
-	.cards{
+	.cards, .cards1{
 		align-items: center;
 		align-content: center;
 	}
@@ -406,6 +450,25 @@ color: #0A84FF;
     cursor: pointer;
     color: #ffffff;
     letter-spacing: 0.9;
+  }
+  .card-headingD{
+    font-size: 24px;
+  }
+  .card-icon_download svg{
+    width: 70%;
+    align-items: center;
+    align-self: center;
+    margin-left: 15%;
+  }
+  .card-desc2D{
+    font-size: 18px;
+  }
+  .card-btnD{
+    font-size: 16px;
+  }
+  .card2{
+    width: 60%;
+    height: auto;
   }
 }
 
@@ -821,7 +884,7 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 1200px) {
-  .cards {
+  .cards, .cards1 {
     flex-direction: column;
   }
 }
